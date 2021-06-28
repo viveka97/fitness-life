@@ -140,10 +140,12 @@ span{
     color: white;
     width: 130px ;
     height: 35px;
-    font-size: 14px;
+    font-size: 20px;
     border-radius: 35px;
     color: white;
     background-color: rgba(white, .5);
+    text-align: center;
+    
 
 
 }
