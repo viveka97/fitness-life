@@ -5,7 +5,9 @@ import '../App.css';
 export default function Header(){
     return(
         <nav>
-            <div className= "logo">Fitness Life</div>
+            <div className= "logo">
+                     <img src = {"./images/logo.jpeg"} />
+            </div>
             <ul>
                 <li> Home </li>
                 <li> Shop</li>
