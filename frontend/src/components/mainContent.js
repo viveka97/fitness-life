@@ -1,6 +1,6 @@
 import React from 'react'
 import product_card from '../data/product_data'
-import '../App.css';
+import '../product.css';
 
 const MainContent = () => {
     console.log(product_card);
