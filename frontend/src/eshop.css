@@ -16,24 +16,7 @@
     background-color: #010d1a;
  }
 
- nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-     justify-content: space-between;
-     width: 100%;
-     color: white;
-     font-family: 'Roboto', sans-serif;
-     font-size: 40px;
-     background-color: #010d1a
-
- }
-
-.logo{
-    
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-}
+ 
 
 ul{
     display: flex;
@@ -57,13 +40,7 @@ li{
     font-family: 'Roboto', sans-serif;
 
 }
-.search{
-    color: rgba(white, .7);
-   
-}
-.fa{
-    cursor: pointer;
-}
+
 
 .main_content{
     display: flex;
@@ -91,6 +68,11 @@ h3{
     margin-top: 10px;
     
 
+}
+.tabs{
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .card{
