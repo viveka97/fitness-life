@@ -1,9 +1,10 @@
 import React from 'react'
-import product_card from '../data/product_data'
+import product_card from '../data/gym_wear'
 import '../eshop.css';
 
 
-const MainContent = () => {
+
+const WearContent = () => {
     console.log(product_card);
     const listItems = product_card.map((item) =>
         <div className = "card" key = {item.id}>
@@ -23,11 +24,11 @@ const MainContent = () => {
     );
     return(
         <div className="main_content">
-      
+   
             {listItems}
         </div>
     )
 
 }
 
-export default MainContent;
+export default WearContent;

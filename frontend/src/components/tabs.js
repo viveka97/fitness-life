@@ -1,22 +1,26 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Nav,Navbar } from 'react-bootstrap';
+import '../eshop.css';
 
-import Tabs from 'react-bootstrap/Tabs'
-import { Tab } from 'react-bootstrap';
-
-export default function Tabsmy(){
+export default function Tabnavb(){
     return(
-<Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
-  <Tab eventKey="home" title="Home">
-    <Tabsmy />
-  </Tab>
-  <Tab eventKey="profile" title="Profile">
-    <Tabsmy />
-  </Tab>
-  <Tab eventKey="contact" title="Contact" disabled>
-    <Tabsmy />
-  </Tab>
-</Tabs>
 
-    );
+
+<>
+  <Navbar >
+  
+    <Nav className="mr-auto">
+      <Nav.Link href="#home">Supplements</Nav.Link>
+      <Nav.Link href="#features">Gym Wears</Nav.Link>
+      <Nav.Link href="#pricing">Gym Equipments</Nav.Link>
+    </Nav>
+   
+  </Navbar>
+ 
+
+  
+    
+  
+</>
+ );
 }

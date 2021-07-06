@@ -69,17 +69,13 @@ h3{
     
 
 }
-.tabs{
-    color: white;
-    font-size: 25px;
-    font-family: 'Roboto', sans-serif;
-}
+
 
 .card{
     width: 30%;
     border-radius: 15px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     position: relative;
@@ -135,7 +131,7 @@ span{
 }
 .btn{
     
-
+    
     background-color: #ff8c00;
     color: white;
     width: 160px ;
@@ -160,4 +156,43 @@ footer{
     margin-top: auto;
     color:rgba(white, .3);
     font-size: 12px;
+}
+
+.mr-auto{
+    background-color: #010d1a;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    cursor: pointer;
+
+    
+      
+   
+   
+}
+.mr-auto::selection {
+    background: green;
+    color: yellow;
+}
+
+
+a.nav-link-active{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+a.nav-link{
+    
+    text-decoration-line: none;
+    margin-left: 10px;
+    cursor: pointer;
+    -ms-text-kashida-space:500fr ;
+    
+}
+
+.a.nav-link::selection {
+    background: green;
+    color: yellow;
 }

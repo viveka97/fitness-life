@@ -2,17 +2,18 @@ import React from 'react';
 import './eshop.css';
 
 import Footer from "./components/footer";
-import MainContent from "./components/mainContent";
+import WearContent from "./components/wearContent";
+import Tabnavb from './components/tabs';
 
 
 
 function App() {
   return (
     <div className="container">
-    
-    
-      <MainContent/>
+      <Tabnavb/>
+      <WearContent/>
       <Footer/>
+
     </div>
   );
 }
