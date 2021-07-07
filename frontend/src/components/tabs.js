@@ -1,6 +1,7 @@
 import React from 'react'
 import { Nav,Navbar } from 'react-bootstrap';
 import '../eshop.css';
+import {Link} from 'react-router-dom';
 
 export default function Tabnavb(){
     return(
@@ -10,9 +11,19 @@ export default function Tabnavb(){
   <Navbar >
   
     <Nav className="mr-auto">
-      <Nav.Link href="#home">Supplements</Nav.Link>
-      <Nav.Link href="#features">Gym Wears</Nav.Link>
-      <Nav.Link href="#pricing">Gym Equipments</Nav.Link>
+      <Nav.Link className="nav-item">
+        <Link to="/sup">Supplements </Link>
+        </Nav.Link>
+        <Nav.Link className="nav-item">
+        <Link to="/wear">Gym Wear </Link>
+        </Nav.Link>
+
+        <Nav.Link className="nav-item">
+        <Link to="/equip">Gym Equipments </Link>
+        </Nav.Link>
+
+
+     
     </Nav>
    
   </Navbar>

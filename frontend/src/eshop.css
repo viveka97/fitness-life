@@ -165,34 +165,7 @@ footer{
     align-items: center;
     color: white;
     justify-content: space-between;
-    cursor: pointer;
-
-    
-      
-   
+    cursor: pointer; 
    
 }
-.mr-auto::selection {
-    background: green;
-    color: yellow;
-}
 
-
-a.nav-link-active{
-    margin-left: 10px;
-    cursor: pointer;
-}
-
-a.nav-link{
-    
-    text-decoration-line: none;
-    margin-left: 10px;
-    cursor: pointer;
-    -ms-text-kashida-space:500fr ;
-    
-}
-
-.a.nav-link::selection {
-    background: green;
-    color: yellow;
-}
