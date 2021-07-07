@@ -73,6 +73,7 @@ h3{
 
 .card{
     width: 30%;
+    margin-left: 20px;
     border-radius: 15px;
     display: flex;
     /* justify-content: center; */
@@ -95,9 +96,11 @@ h3{
     width: 200px;
 }
 .card_header{
+    
     flex-direction: column;
     color: white;
     margin: 25px 0;
+    
     
 
 }
@@ -125,11 +128,13 @@ span{
 }
 
 .card:hover{
-    background-color: #010d1a ;
+    background-color: #010d1a;
     transform: scale(1.1);
+    margin-top: 10px;
+    margin-bottom: 20px;
     cursor: pointer;
 }
-.btn{
+.buttn{
     
     
     background-color: #ff8c00;
@@ -166,6 +171,24 @@ footer{
     color: white;
     justify-content: space-between;
     cursor: pointer; 
+    text-decoration:white;
+
+    
    
 }
 
+.btn{
+   
+    
+    background-color: #ff8c00;
+    width: 160px ;
+    height: 35px;
+    font-size: 25px;
+    border-radius: 35px;
+    color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-decoration: none;
+    
+    
+}

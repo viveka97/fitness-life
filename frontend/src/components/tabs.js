@@ -1,37 +1,43 @@
 import React from 'react'
-import { Nav,Navbar } from 'react-bootstrap';
-import '../eshop.css';
+import { Button } from 'react-bootstrap';
+
 import {Link} from 'react-router-dom';
 
 export default function Tabnavb(){
     return(
 
+<div className= "nav-btn-icon">
 
-<>
-  <Navbar >
+
+  <Button variant="primary">
+  <Link to="/sup">Supplements </Link>
+    </Button>{' '}
+  <Button variant="secondary">
+  <Link to="/wear">Gym Wear </Link>
   
-    <Nav className="mr-auto">
-      <Nav.Link className="nav-item">
-        <Link to="/sup">Supplements </Link>
-        </Nav.Link>
-        <Nav.Link className="nav-item">
-        <Link to="/wear">Gym Wear </Link>
-        </Nav.Link>
-
-        <Nav.Link className="nav-item">
-        <Link to="/equip">Gym Equipments </Link>
-        </Nav.Link>
-
-
-     
-    </Nav>
-   
-  </Navbar>
+  </Button>{' '}
+  <Button variant="success">
+  <Link to="/equip">Equipments </Link>
+    </Button>{' '}
  
+
+  </div>
+
+    );
+
+
+
+
+
+
+
+
+
+
+  
 
   
     
   
-</>
- );
+
 }

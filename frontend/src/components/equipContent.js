@@ -14,7 +14,7 @@ const EquipContent = () => {
                 <h2>{item.product_name}</h2>
                 <p>{item.description}</p>
                 <p className= "price">{item.price}<span>{item.currency}</span></p>
-                <div className="btn">
+                <div className="buttn">
                     View Item
                 </div>
             </div>  
