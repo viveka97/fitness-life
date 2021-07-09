@@ -5,7 +5,7 @@ const product_card = [
         description: "Make yourself fit in gym wear.",
         price: 3450,
         currency: "LKR",
-        thumb: "./images/wear.jpg"
+        thumb: "./images/wearset1.jpg"
     },
     
     {
@@ -14,7 +14,7 @@ const product_card = [
         description: "Make yourself fit in gym wear.",
         price: 3450,
         currency: "LKR",
-        thumb: "./images/wear.jpg"
+        thumb: "./images/wearset1.jpg"
     },
     
     {
@@ -23,7 +23,7 @@ const product_card = [
         description: "Make yourself fit in gym wear.",
         price: 3450,
         currency: "LKR",
-        thumb: "./images/wear.jpg"
+        thumb: "./images/wearset1.jpg"
     },
     {
         id :4,
@@ -31,7 +31,7 @@ const product_card = [
         description: "Make yourself fit in gym wear.",
         price: 3450,
         currency: "LKR",
-        thumb: "./images/wear.jpg"
+        thumb: "./images/wearset1.jpg"
     },
     {
         id :5,
@@ -39,7 +39,7 @@ const product_card = [
         description: "Make yourself fit in gym wear.",
         price: 3450,
         currency: "LKR",
-        thumb: "./images/wear.jpg"
+        thumb: "./images/wearset1.jpg"
     },
     {
         id :6,
@@ -47,7 +47,7 @@ const product_card = [
         description: "Make yourself fit in gym wear.",
         price: 3450,
         currency: "LKR",
-        thumb: "./images/wear.jpg"
+        thumb: "./images/wearset1.jpg"
     },
     {
         id :7,
@@ -55,7 +55,7 @@ const product_card = [
         description: "Make yourself fit in gym wear.",
         price: 3450,
         currency: "LKR",
-        thumb: "./images/wear.jpg"
+        thumb: "./images/wearset1.jpg"
     },
     {
         id :8,
@@ -63,7 +63,7 @@ const product_card = [
         description: "Make yourself fit in gym wear.",
         price: 3450,
         currency: "LKR",
-        thumb: "./images/wear.jpg"
+        thumb: "./images/wearset1.jpg"
     },
     {
         id :9,
@@ -71,16 +71,33 @@ const product_card = [
         description: "Make yourself fit in gym wear.",
         price: 3450,
         currency: "LKR",
-        thumb: "./images/wear.jpg"
+        thumb: "./images/wearset1.jpg"
     },
     
     {
-        id :9,
+        id :10,
         product_name: "Ladies dress kit",
         description: "Make yourself fit in gym wear.",
         price: 3450,
         currency: "LKR",
-        thumb: "./images/wear.jpg"
+        thumb: "./images/wearset1.jpg"
+    },
+    {
+        id :11,
+        product_name: "Ladies dress kit",
+        description: "Make yourself fit in gym wear.",
+        price: 3450,
+        currency: "LKR",
+        thumb: "./images/wearset1.jpg"
+    },
+    
+    {
+        id :12,
+        product_name: "Ladies dress kit",
+        description: "Make yourself fit in gym wear.",
+        price: 3450,
+        currency: "LKR",
+        thumb: "./images/wearset1.jpg"
     },
     
     

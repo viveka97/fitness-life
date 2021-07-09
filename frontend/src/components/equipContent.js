@@ -1,24 +1,29 @@
 import React from 'react'
 import product_card from '../data/gym_equipments'
 import '../eshop.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {  Card  , Button} from "react-bootstrap";
 
 
 const EquipContent = () => {
     console.log(product_card);
     const listItems = product_card.map((item) =>
-        <div className = "card" key = {item.id}>
-            <div className= "card_img">
-                <img src = {item.thumb} />
-            </div>
-            <div className= "card_header"  >
-                <h2>{item.product_name}</h2>
-                <p>{item.description}</p>
+
+    <>
+        <Card className="item-card" key = {item.id}>
+            <Card.Img variant="top" src={item.thumb} />
+            <Card.Body>
+                <Card.Title>{item.product_name}</Card.Title>
+                <Card.Text>
+                    <p className="item-info">{item.description}</p>
+                </Card.Text>
                 <p className= "price">{item.price}<span>{item.currency}</span></p>
-                <div className="buttn">
-                    View Item
-                </div>
-            </div>  
-        </div>
+                <div className="view-btn">View Item</div>
+            </Card.Body>
+                
+        </Card>
+    </>
+        
     
     );
     return(

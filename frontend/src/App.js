@@ -12,14 +12,15 @@ import Tabnavb from './components/tabs';
 
 function App() {
   return (
-    <div className="container">
+    <div className="body">
 
     <BrowserRouter>
-      <Tabnavb/>
+    <Tabnavb/>
 
       <Switch>
-
+      
         <Route path="/sup">
+          
           <MainContent/>
         </Route>
 

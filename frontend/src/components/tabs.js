@@ -1,5 +1,7 @@
 import React from 'react'
-import { Button } from 'react-bootstrap';
+import './eshopNavbar.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button, Row } from 'react-bootstrap';
 
 import {Link} from 'react-router-dom';
 
@@ -8,24 +10,21 @@ export default function Tabnavb(){
 
 <div className= "nav-btn-icon">
 
-
-  <Button variant="primary">
-  <Link to="/sup">Supplements </Link>
+  <Row>
+  <Button>
+    <Link to="/sup">Supplements </Link>
+      </Button>{' '}
+    <Button>
+    <Link to="/wear">Gym Wear </Link>
+    
     </Button>{' '}
-  <Button variant="secondary">
-  <Link to="/wear">Gym Wear </Link>
-  
-  </Button>{' '}
-  <Button variant="success">
-  <Link to="/equip">Equipments </Link>
+    <Button>
+    <Link to="/equip">Equipments </Link>
     </Button>{' '}
- 
-
+  </Row>
   </div>
 
     );
-
-
 
 
 
